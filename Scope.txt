@@ -1,0 +1,12 @@
+Selector de Pokemon inicial:
+
+1) En la primera seccion opciones con 
+botones y los nombres de los pokemones a escoger
+
+2) En la segunda seccion se mostrarán las pokebolas las cuales se moveran
+o tendran algun otro efecto visual al moment en el que se interactue con los
+botones de la primera seccion
+
+3) Se mostrará el pokemon, el nombre, los ataques iniciales
+(y otros datos extrade ser necesarios o si me alcanza el 
+tiempo de darle añadidos)

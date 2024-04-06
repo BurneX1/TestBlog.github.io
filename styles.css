@@ -1,0 +1,287 @@
+
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+article {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+body {
+    background-color: #EFC89D;
+    background-image: url(Resources/Img/bg.png);
+    background-position-x: center;
+    font-family: Lato;
+    animation-name: bgMove;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bgMove
+{
+    0% {
+        color: rebeccapurple;
+       
+    }
+    25% {
+        background-position-x: 65%;
+        background-position-y: -15%;
+        color: aqua;
+    }
+    50% {
+        background-position-y: -5%;
+        color: blanchedalmond;
+        /*background-position-y: 1%;*/
+    }
+    75% {
+        background-position-x: 35%;
+        background-position-y: -15%;
+        color: chartreuse
+    }
+    100% {
+        background-position-y: -5%;
+        color: black;
+        /*background-position-y: -1%;*/
+    }
+}
+
+.header {
+    font-family: Lato;
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: black 2px;
+    font-size: 32px;
+    background-position: center;
+    background-color: #242254;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    color: white;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    position: inherit;
+    z-index: 100;
+    border: 4px groove black;
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: 16.6% 50% 33.33% ;
+}
+
+.grid-C3 {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    align-content: center;
+    text-align: center;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.try{
+    background-color:aquamarine;
+
+}
+.squareBtn {
+    border-radius: 25%;
+    font-family: Lato;
+    outline: medium;
+    padding: 16px 16px;
+    background-color: #2751F2;
+    color: #242254;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+    .squareBtn:active {
+        background-color: #242254;
+        color: white;
+    }
+    .squareBtn:hover {
+        background-color: #242254;
+        color: white;
+    }
+
+
+.largeBtn {
+    border-radius: 25px;
+    font-family: Lato;
+    outline: medium;
+    padding: 20px 96px;
+
+    background-color: #DB7B00;
+    cursor: pointer;
+}
+    .largeBtn:active {
+        background-color: #FF9C00;
+        color: white;
+    }
+
+    .largeBtn:hover {
+        background-color: #FF9C00;
+        color: white;
+    }
+
+
+
+.areaBtn {
+   
+    font-family: Lato;
+    text-align:left;
+    text-anchor:start;
+    text-justify:inter-cluster;
+    padding: 10% 49%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+    .areaBtn:active {
+        background-color: #FF9C00;
+        opacity: 50%;
+        color: black;
+    }
+
+    .areaBtn:active {
+        background-color: #FF9C00;
+        opacity: 50%;
+        color: black;
+    }
+
+.border {
+    border: 4px double #242254;
+    background-color: azure;
+    opacity: 90%;
+    
+}
+
+.pokeball {
+    width:20%;
+
+    
+
+}
+    .active {
+        animation-name: pokeMove;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+    }
+
+
+
+@keyframes pokeMove
+{
+    0% {
+        width: 27%;
+        transform: rotate(0deg);
+    }
+    25% {
+        width: 30%;
+
+        transform: rotate(60deg);
+    }
+    50% {
+        width: 27%;
+        transform: rotate(0deg);
+    }
+    75% {
+        width: 30%;
+        rotation: -180deg;
+        transform: rotate(-60deg);
+    }
+    100% {
+        width: 27%;
+        transform: rotate(0deg);
+    }
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+    /* Style the active class, and buttons on mouse-over */
+.active {
+    animation-name: pokeMove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
